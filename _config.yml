@@ -23,12 +23,6 @@ me:
   stackoverflow: https://stackoverflow.com/users/6770321/sujan-poudel
   blog_repo: https://github.com/psuzn
 
-defaults:
-   - values:
-      image: "https://www.gravatar.com/avatar/0ae70015cd23df3f9e5bae80c8fb394d?s=512"
-
-image:
-  path: 
 
 seo:
  name: "Sujan Poudel"
