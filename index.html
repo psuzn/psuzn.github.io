@@ -5,11 +5,16 @@ title: Articles
 
 <div class="row justify-content-between">
   <div class="col-md-8">
-
     <!-- Posts Index
     ================================================== -->
-    <section class="recent-posts">
+    <section class="recent-posts" style="min-height: 400px;">
       <div class="row listrecent">
+        {{ paginator.total_pages  }}
+
+        {% if paginator.total_pages >1 %} 
+        <span>I'm writing articles check in later</span>
+        {% endif %} 
+        
         {% for post in paginator.posts %} {% include postbox.html %} {% endfor %}
       </div>
     </section>
