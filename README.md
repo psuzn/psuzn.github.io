@@ -27,9 +27,6 @@ Now that the dependencies exists, we can generate static site:
 
 Now You can view your generated site at [http://localhost:4000](http://localhost:4000)
 
-## Hosting
-
-This blog is hosted by [GitHub Pages](https://pages.github.com/). A custom domain is used. Continuous integration with [Travis](https://travis-ci.org) builds the site everytime the source is updated.
 
 ## License
 
