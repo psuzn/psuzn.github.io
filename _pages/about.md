@@ -1,6 +1,7 @@
 ---
+description: "I'm a tree-shaped engineer exploring different areas and field in depth."
 layout: page
-title: About
+title: About Me
 permalink: /about
 comments: false
 ---

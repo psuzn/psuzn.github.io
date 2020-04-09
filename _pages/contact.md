@@ -1,6 +1,7 @@
 ---
+description: "If you have any questions or just want to talk with me, please feel free to reach me."
 layout: page
-title: Contact
+title: Contact Me
 permalink: /contact
 comments: false
 ---
