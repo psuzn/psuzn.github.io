@@ -12,8 +12,8 @@ install:
   - gem install jekyll bundler
   - git config --global user.email "mail@sujanpoudel.me"
   - git config --global user.name "psuzn"
-  - git checkout master
-  - git merge source
+  - git checkout -b master
   - git push origin master
+  - exit 0
 
 
