@@ -1,23 +1,42 @@
-# Mediumish - Jekyll Theme
+# About
 
-[Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/) &nbsp; | &nbsp; [Buy me a coffee](https://www.wowthemes.net/donate/)
+This repository hosts the code for my personal [blog](https://sujanpoudel.me/).
 
-![mediumish](assets/images/mediumish-jekyll-template.png)
+The blog is powered by [Jekyll](https://github.com/jekyll/) and uses [mediumish](https://github.com/wowthemesnet/mediumish-theme-jekyll) theme.
 
+### Fork / Clone the Repo
 
-### Copyright
+Clone your version of the repo:
 
-Copyright (C) 2019 Sal, https://www.wowthemes.net
+    $ git clone https://github.com/psuzn/psuzn.github.io/
 
-**Mediumish for Jekyll** is designed and developed by [Sal](https://www.wowthemes.net) and it is *free* under MIT license. 
+### Install Dependency
 
-<a href="https://www.wowthemes.net/donate/" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+- Instal [Ruby](https://www.ruby-lang.org/en/downloads/) and [gem](https://www.ruby-lang.org/en/downloads/)
+- Install [jekyll](https://jekyllrb.com/docs/installation/) and bundler gems
 
-### Contribute
+  ```
+  gem install jekyll bundler
+  ```
 
-1. [Fork the repo](https://github.com/wowthemesnet/mediumish-theme-jekyll).
-2. Clone a copy of your fork on your local
-3. Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
-4. Make necessary changes, commit, push and open a pull request on GitHub.
+### Generate and Preview
 
-Thank you!
+Now that the dependencies exists, we can generate static site:
+
+`bundle exec jekyll serve`
+
+Now You can view your generated site at [http://localhost:4000](http://localhost:4000)
+
+## Hosting
+
+This blog is hosted by [GitHub Pages](https://pages.github.com/). A custom domain is used. Continuous integration with [Travis](https://travis-ci.org) builds the site everytime the source is updated.
+
+## License
+
+The source code for generation of the blog is under MIT License. Content is copyrighted.
+
+## Contact
+
+If you have any questions, you can [email](mailto:mail@sujanpoudel.me) me.
+
+If you found any typos or errors, please create a issue [here](https://github.com/psuzn/psuzn.github.io/issues/new).
