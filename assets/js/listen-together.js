@@ -10,7 +10,7 @@ $(document).ready(()=>{
 
     let url = new URL(document.URL)
     $("#click-here").html(`Click <a href="./ROOM${decodeURI(url.hash)}" target="_blank">HERE</a>`)
-    $("#roomId").html(url.hash.substr(1))
+    $("#roomId").text(`ROOM${decodeURI(url.hash)}`)
     $("#copy").click(e=>{
         e.preventDefault();
         copyToClipboard(`ROOM${decodeURI(url.hash)}`)
