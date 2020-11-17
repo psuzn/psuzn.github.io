@@ -1,7 +1,7 @@
 ---
-description: "Listner together"
+description: "Make your own room and listen with your friends and family !🎵🎵"
 layout: page
-title: Listen Together
+title: Listen Together 🎶
 permalink: /ROOM
 comments: false
 ---
@@ -9,7 +9,7 @@ comments: false
 <div class="row justify-content-between">
   <div class="col-md-8 pr-5">
 
-  <p>Click on the following link or you can copy the room id below</p>
+  <p>Click on the following link or you can copy the room id below </p>
 
   <h5 id="click-here" style="text-align:center;margin-top: 2em;">Click HERE</a></h5>
 
