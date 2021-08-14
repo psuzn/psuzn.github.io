@@ -1,0 +1,5 @@
+---
+permalink: app-ads.txt
+---
+
+facebook.com, 206660323449796, DIRECT, c3e20eee3f780d68
