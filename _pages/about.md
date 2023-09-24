@@ -17,7 +17,9 @@ I'm a tree-shaped engineer exploring different areas and field in depth.
 
 ##### Interest
 
-My area of interests include native Android/IOS development with [java &#x26; kotlin &#x26; Swift][1] and backend development with [Kotlin][2] &#x26;, [node][3].
+My area of interests include native Android/IOS development with [java,kotlin &#x26; Swift][1] and backend development with [Kotlin][2] &#x26;, [node][3].
+
+Lately I'm playing around with Kotlin Multiplatform (KMP). 
 
 <br/> <br/> <br/>
 
