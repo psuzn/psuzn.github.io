@@ -54,7 +54,7 @@ export default (post: CollectionEntry<"blog">) => {
         >
           <p
             style={{
-              fontSize: 42,
+              fontSize: 52,
               fontWeight: "bold",
               maxHeight: "84%",
               overflow: "hidden",
@@ -62,13 +62,23 @@ export default (post: CollectionEntry<"blog">) => {
           >
             {post.data.title}
           </p>
+          <p
+            style={{
+              fontSize: 24,
+              fontWeight: "semibold",
+              maxHeight: "84%",
+              overflow: "hidden",
+            }}
+          >
+            {post.data.tags.map(it => `#${it}`).join(" ")}
+          </p>
           <div
             style={{
               display: "flex",
               justifyContent: "space-between",
               width: "100%",
               marginBottom: "8px",
-              fontSize: 18,
+              fontSize: 28,
             }}
           >
             <span>
@@ -86,7 +96,7 @@ export default (post: CollectionEntry<"blog">) => {
             </span>
 
             <span style={{ overflow: "hidden", fontWeight: "bold" }}>
-              {SITE.title}
+              {SITE.website}
             </span>
           </div>
         </div>

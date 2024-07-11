@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Sujan Poudel",
   desc: "Personal blog and contents by psuzn",
   title: "Sujan Poudel",
-  ogImage: "default-og.png",
+  ogImage: "og.png",
   lightAndDarkMode: true,
   postPerPage: 3,
 };
