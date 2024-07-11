@@ -54,7 +54,7 @@ export default (post: CollectionEntry<"blog">) => {
         >
           <p
             style={{
-              fontSize: 72,
+              fontSize: 42,
               fontWeight: "bold",
               maxHeight: "84%",
               overflow: "hidden",
@@ -68,7 +68,7 @@ export default (post: CollectionEntry<"blog">) => {
               justifyContent: "space-between",
               width: "100%",
               marginBottom: "8px",
-              fontSize: 28,
+              fontSize: 18,
             }}
           >
             <span>
