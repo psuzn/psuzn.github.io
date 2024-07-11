@@ -1,8 +1,8 @@
 ---
 author: Sujan Poudel
-pubDatetime: 2023-12-21T09:12:47.400Z
-modDatetime: 2023-12-21T09:12:47.400Z
-title: "Manage configurations for different environment (eg: staging, prod) in Kotlin Multiplatform"
+pubDatetime: 2024-07-11T22:24:47.400Z
+modDatetime: 2024-07-11T22:24:47.400Z
+title: "Manage configurations for the different environment (eg: staging, prod) in Kotlin Multiplatform"
 slug: kmp-setup-config-for-different-environment-in-kmp
 featured: false
 draft: false
