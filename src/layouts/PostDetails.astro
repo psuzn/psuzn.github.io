@@ -6,6 +6,7 @@ import Tag from "@components/Tag.astro";
 import Datetime from "@components/Datetime";
 import type { CollectionEntry } from "astro:content";
 import { slugifyStr } from "@utils/slugify";
+import Disqus from "@components/Disqus.astro";
 
 export interface Props {
   post: CollectionEntry<"blog">;
@@ -84,6 +85,7 @@ const layoutProps = {
         <span>Back to Top</span>
       </button>
     </div>
+    <Disqus identifier={canonicalURL} url={Astro.url.href} title={title} />
   </main>
   <Footer />
 </Layout>

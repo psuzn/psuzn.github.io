@@ -2,7 +2,7 @@
 
 This hosts the content for [https://sujanpoudel.me](https://sujanpoudel.me).
 
-Powered by [Astro](https://astro.build) and ![AstroPaper](https://github.com/satnaing/astro-paper).
+Powered by [Astro](https://astro.build) and [AstroPaper](https://github.com/satnaing/astro-paper).
 
 ## Contributions
 
