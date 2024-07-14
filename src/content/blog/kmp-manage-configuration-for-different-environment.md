@@ -7,6 +7,7 @@ slug: kmp-setup-config-for-different-environment-in-kmp
 featured: false
 draft: false
 tags: [KMP, Kotlin]
+favicon: "/favicon-kt.ico"
 description: |
   Step by step guides to setup and manage the configurations between the different environments in Kotlin multiplatform project.
 ---

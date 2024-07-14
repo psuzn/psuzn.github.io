@@ -23,6 +23,7 @@ const {
   pubDatetime,
   modDatetime,
   tags,
+  favicon,
 } = post.data;
 
 const { Content } = await post.render();
@@ -38,6 +39,7 @@ const layoutProps = {
   pubDatetime,
   modDatetime,
   canonicalURL,
+  favicon,
   ogImage: ogUrl,
   scrollSmooth: true,
 };
