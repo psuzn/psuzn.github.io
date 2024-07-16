@@ -44,4 +44,8 @@ export default defineConfig({
     },
   },
   scopedStyleStrategy: "where",
+  redirects: {
+    "/blogs/kmp-setup-config-for-different-environment-in-kmp":
+      "/blogs/managing-configurations-for-different-environments-in-kmp",
+  },
 });
