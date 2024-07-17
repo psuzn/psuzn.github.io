@@ -246,4 +246,4 @@ buildkonfig {
 
 You can find the sample app at [https://github.com/psuzn/kmp-config-sample](https://github.com/psuzn/kmp-config-sample).
 
-If you find any typos or problems on this blog, please create an issue at [https://github.com/psuzn](https://github.com/psuzn).
+If you find any typos or problems on this blog, please create an issue [here](https://github.com/psuzn/psuzn.github.io).
