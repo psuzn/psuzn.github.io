@@ -41,4 +41,16 @@ export const SOCIALS: SocialObjects = [
     linkTitle: `${SITE.title} on Twitter`,
     active: true,
   },
+  {
+    name: "Blog",
+    href: "/blogs",
+    linkTitle: `Blogs`,
+    active: true,
+  },
+  {
+    name: "Email",
+    href: "mailto:mail@sujanpoudel.me?subject=Contact+Via+Site",
+    linkTitle: `Email`,
+    active: true,
+  },
 ];

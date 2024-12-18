@@ -7,19 +7,27 @@ const currentYear = new Date().getFullYear();
 
 export interface Props {
   noMarginTop?: boolean;
+  minimal?: boolean;
 }
 
-const { noMarginTop = false } = Astro.props;
+const { noMarginTop = false, minimal = false } = Astro.props;
 ---
 
 <footer class={`${noMarginTop ? "" : "mt-auto"}`}>
   <Hr noPadding />
-  <div class="footer-wrapper">
-    <Socials centered />
-    <div class="copyright-wrapper">
-      <span>Copyright &#169; {currentYear} Sujan Poudel</span>
-    </div>
-  </div>
+
+  {
+    !minimal && (
+      <>
+        <div class="footer-wrapper" />
+        <Socials centered />
+        <div class="copyright-wrapper">
+          <span>Copyright &#169; {currentYear} Sujan Poudel</span>
+        </div>
+      </>
+    )
+  }
+
   <div class="footer-wrapper">
     <div class="flex"></div>
     <div class="copyright-wrapper">
